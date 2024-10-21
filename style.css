@@ -1,0 +1,26 @@
+.w3r-container {
+    display: grid;
+    grid-template-columns: 1fr minmax(75%, 150px);
+    height: 500px;
+}
+
+main,
+aside {
+    padding: 12px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: monospace;
+    font-size: xx-large;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+main {
+    background: #9587ff;
+}
+
+aside {
+    background: #78ff95;
+}
